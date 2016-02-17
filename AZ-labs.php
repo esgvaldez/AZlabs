@@ -15,7 +15,7 @@ require_once(dirname(__FILE__).'/api/impl/ajax_modules/Module01_createInboundShi
 // require_once(dirname(__FILE__).'/api/impl/ajax_modules/Module02_loadInventoryList.php');
 require_once(dirname(__FILE__).'/api/impl/ajax_modules/Module03_inboundShipmentPlanInteract.php');
 require_once(dirname(__FILE__).'/api/impl/ajax_modules/Module04_AZlabSettings.php');
-
+// TEST
 require_once(dirname(__FILE__).'/api/impl/ajax_modules/AZlabsMiscRequest.php');
 
 class AZ_Labs {
