@@ -1,0 +1,392 @@
+.az-main {
+	padding-top: 20px;
+	border-radius: 25px;
+  border: 2px solid #272822;
+  padding: 15px;
+  
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(76,76,76,1)), color-stop(0%, rgba(44,44,44,1)), color-stop(0%, rgba(71,71,71,1)), color-stop(0%, rgba(0,0,0,1)), color-stop(0%, rgba(89,89,89,1)), color-stop(0%, rgba(102,102,102,1)), color-stop(100%, rgba(19,19,19,1)));
+  background: -webkit-linear-gradient(45deg, rgba(76,76,76,1) 0%, rgba(44,44,44,1) 0%, rgba(71,71,71,1) 0%, rgba(0,0,0,1) 0%, rgba(89,89,89,1) 0%, rgba(102,102,102,1) 0%, rgba(19,19,19,1) 100%);
+  background: -o-linear-gradient(45deg, rgba(76,76,76,1) 0%, rgba(44,44,44,1) 0%, rgba(71,71,71,1) 0%, rgba(0,0,0,1) 0%, rgba(89,89,89,1) 0%, rgba(102,102,102,1) 0%, rgba(19,19,19,1) 100%);
+  background: -ms-linear-gradient(45deg, rgba(76,76,76,1) 0%, rgba(44,44,44,1) 0%, rgba(71,71,71,1) 0%, rgba(0,0,0,1) 0%, rgba(89,89,89,1) 0%, rgba(102,102,102,1) 0%, rgba(19,19,19,1) 100%);
+  background: linear-gradient(45deg, rgba(76,76,76,1) 0%, rgba(44,44,44,1) 0%, rgba(71,71,71,1) 0%, rgba(0,0,0,1) 0%, rgba(89,89,89,1) 0%, rgba(102,102,102,1) 0%, rgba(19,19,19,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313', GradientType=1 );
+}
+
+#content-A,#content-B,#content-C,#tab-settings {
+  background-color: #FFFFFF; 
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#content-B,#content-C,#tab-settings {
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 100%;
+  max-height: 750px;
+}
+
+/*=======================================================================*/
+/* START: Inbound Shipment List tab */
+.InShipPlan-box {
+  position: relative;
+  overflow: hidden; 
+  float: left; 
+  width: 153px; 
+  height: 153px; 
+  margin: 0 0 5px 5px; 
+  border-radius: 5px;
+}
+
+.InShipPlan-box div {
+  position: absolute;
+  text-align: center; 
+  font: bold 10px Helvetica, Sans-Serif;
+  width: 100%; 
+  word-wrap: break-word; 
+  color: #ffffff; 
+  background: rgba(0,0,0,0.5);
+}
+
+.InShipPlan-box img {
+  position: absolute;
+  max-width: 100px; 
+  max-height: 100px; 
+  margin: auto; 
+  top: 0; 
+  right: 0; 
+  bottom: 0; 
+  left: 0; 
+  z-index: 1;
+}
+
+.hidden-box-opt {
+  padding: 2px; 
+  bottom: -38px; 
+  border-radius: 5px 5px 0 0; 
+  z-index: 3;
+}
+/* END: Inbound Shipment List tab */
+/*=======================================================================*/
+/* START: Shipping Queue tab; */
+.editor-steptitle {
+  color: #CC6600;
+  margin-top: 30px;
+}
+
+.itemEditor-qtyEdit > input {
+  width: 50px;
+}
+
+.azclass-edit-review_units-modal .modal-dialog {
+  width: 900px;
+}
+
+.azclass-edit-review_units-modal-revert_qty_btn {
+  display:inline-block;
+  visibility: hidden;
+  margin-left:-20px;
+  cursor:pointer;
+  color: #FF0000;
+}
+
+.onEditor-hide {
+  display: none;
+}
+
+#azid-fba-box-unit-tbl-head {
+  background-color: #FF9E00;
+  color: #000000; 
+}
+
+.editor-shippingMethod-SP_tblData {
+  color: #ffffff;
+  background-color: #494949;
+}
+
+/* END: Shipping Queue tab; */
+/*=======================================================================*/
+
+.dropdown-menu > li > a:hover {
+  color: #0392CF !important;
+  background-color: #222222 !important;
+}
+
+#address-dropdown-toggle, #ship-from, #address-info {
+  margin-left: 15px;
+}
+
+.az-logo {
+	padding-top: 40px;
+}
+
+.animate-loading-btn {
+	animation: 2s roty infinite linear;
+	-webkit-animation: 2s roty infinite linear;
+	-moz-animation: 2s roty infinite linear;
+}
+
+@keyframes roty {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+#separator {
+	padding-bottom: 5px;
+	border-bottom: 2px solid #272822;
+}
+
+#azTab {
+	margin: 0px 20px 0px 20px;
+  padding: 7px 0 0 7px;
+  border-radius: 5px;
+  background-color: #E0E0E0;
+}
+
+.tab-content {
+	padding: 15px;
+}
+
+.scrollable {
+	display: block;
+	height: 400px;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	border-left: 2px solid #272822;
+  /*border-bottom: 2px solid #8ac007;
+  border-radius: 5px;*/
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.item-search-btn {
+  width: 150px;
+}
+
+#search-result {
+	height: 350px;
+	max-height: 500px;
+  padding: 10px;
+}
+
+#search-item {
+	display: block;
+}
+
+#new-batch-btn {
+  display: block;
+  width: 250px;
+}
+
+#infoModal {
+  padding-top: 50px;
+}
+
+.err-input {
+  padding: 20px;
+  margin: 10px;
+  background: #ff0030;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.3em;
+  border: 2px dashed #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 0 4px #ff0030, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+  text-shadow: -1px -1px #aa3030;
+  font-weight: normal;
+}
+
+.shippingMethodAlertMsgContainer {
+  background-color:#111111; 
+  color:#FFA600; 
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+}
+
+#shipmentAlertList {
+  background-color: #494949;
+  padding: 5px;
+  /*-webkit-border-bottom-right-radius: 7px;
+  -webkit-border-bottom-left-radius: 7px;
+  -moz-border-radius-bottomright: 7px;
+  -moz-border-radius-bottomleft: 7px;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;*/
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+}
+
+.datepicker {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.today {
+  background-color: #EEEEEE;
+  color: #000000; 
+}
+
+.box {
+  background-color: #333333;
+  color:#ffffff;
+  height: 100%;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  padding: 7px;
+  margin: 5px;
+}
+
+.settingOpt {
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+}
+
+legend {
+  color: #00729F !important;
+}
+
+.settingsScrollableView {
+  height: 200px;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 5px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+}
+
+/* ======================================================================================== */
+/* Loading Overlay CSS */
+/* Absolute Center CSS Spinner */
+
+.loading {
+  position: fixed;
+  z-index: 999;
+  height: 2em;
+  width: 2em;
+  overflow: show;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  visibility: hidden;
+}
+/* Transparent Overlay */
+
+.loading:before {
+  content: '';
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/* :not(:required) hides these rules from IE9 and below */
+
+.loading:not(:required) {
+  /* hide "loading..." text */
+  
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+.loading:not(:required):after {
+  content: '';
+  display: block;
+  font-size: 10px;
+  width: 1em;
+  height: 1em;
+  margin-top: -0.5em;
+  -webkit-animation: spinner 1500ms infinite linear;
+  -moz-animation: spinner 1500ms infinite linear;
+  -ms-animation: spinner 1500ms infinite linear;
+  -o-animation: spinner 1500ms infinite linear;
+  animation: spinner 1500ms infinite linear;
+  border-radius: 0.5em;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.75) 1.5em 0 0 0, rgba(0, 0, 0, 0.75) 1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) 0 1.5em 0 0, rgba(0, 0, 0, 0.75) -1.1em 1.1em 0 0, rgba(0, 0, 0, 0.5) -1.5em 0 0 0, rgba(0, 0, 0, 0.5) -1.1em -1.1em 0 0, rgba(0, 0, 0, 0.75) 0 -1.5em 0 0, rgba(0, 0, 0, 0.75) 1.1em -1.1em 0 0;
+  box-shadow: rgba(0, 0, 0, 0.75) 1.5em 0 0 0, rgba(0, 0, 0, 0.75) 1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) 0 1.5em 0 0, rgba(0, 0, 0, 0.75) -1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) -1.5em 0 0 0, rgba(0, 0, 0, 0.75) -1.1em -1.1em 0 0, rgba(0, 0, 0, 0.75) 0 -1.5em 0 0, rgba(0, 0, 0, 0.75) 1.1em -1.1em 0 0;
+}
+/* Animation */
+
+@-webkit-keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@-o-keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
