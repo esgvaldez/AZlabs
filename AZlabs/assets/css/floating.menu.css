@@ -1,0 +1,70 @@
+#floatingMenu {
+	width:350px;
+    height:20px;
+    height:auto;
+    position:fixed;
+    top: 40px;
+    right: 10px;
+    background-color: #383838;
+    color: #F0F0F0;
+    font-family: Calibri;
+    font-size: 20px;
+    padding:10px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 24px -1px rgba(56, 56, 56, 1);
+    -moz-box-shadow: 0px 0px 24px -1px rgba(56, 56, 56, 1);
+    box-shadow: 0px 0px 24px -1px rgba(56, 56, 56, 1);
+    z-index: 9999;
+}
+
+.fm-div {
+    padding-top: 5px;
+    padding-left: 3px;
+    padding-bottom: 5px;
+}
+
+.typeahead {
+    -webkit-border-radius: 5px;
+    -mox-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#fm-dualPurposeContainer {
+    color: #ffffff;
+}
+
+#fm-clientAction {
+    position: absolute;
+    right: 5px;
+}
+
+.fm-searchMenu {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 5px 5px 5px 5px;
+    width: 100%;
+    margin-top: 5px;
+    border: solid 1px #000000;
+}
+
+.fm-searchHighlight {
+    background-color: #337AB7;
+    padding: 2px;
+}
+
+.fm-searchSuggestion {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.fm-searchCursor {
+    background-color: #222222;
+    color: #ffffff;
+    padding: 3px;
+}
+
+.fm-searchMenu, .fm-searchHighlight, .fm-searchCursor {
+    -webkit-border-radius: 5px;
+    -mox-border-radius: 5px;
+    border-radius: 5px;
+}
